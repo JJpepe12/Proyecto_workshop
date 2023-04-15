@@ -3,7 +3,6 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    watch: true,
     entry: {
     //sirve para indicar el archivo de Javascript de entrada de este proyecto.
     app: ["@babel/polyfill", "./src/app/index.js"]
